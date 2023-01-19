@@ -159,10 +159,10 @@ def allowed_file(filename):
 # -------------- Gallery Photos Routes ----------------
 
 
-if __name__  == "__main__":
-    app.run(debug=True)
-else:
-    application = app.server
+#if __name__  == "__main__":
+#    app.run(port=8118, debug=False)
+#else:
+#    application = app.server
 
 
 
